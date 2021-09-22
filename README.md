@@ -5,7 +5,7 @@ To use the CHARMM-GUI FF Converter (current as of Sept. 22, 2021), you need to i
 
 ## 1. Convert PSF/PDB to CHARMM CRD 
   - Use the script from the <a href='https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/write_charmm_crd/'>VMD scripts library</a>, found <a href= 'https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/write_charmm_crd/write_charmm_crd.tcl'>here</a>, written by Mitchell Gleed (mgleed at byu.edu) 2015. (Last accessed Sept 22, 2021)
-  - To use: 
+  - To use with interactive VMD console: 
   ``` 
   vmd -dispdev text
   mol new PSF.psf 
