@@ -26,6 +26,8 @@ writepsf xplor XPLOR.psf
 ```
 PSF EXT CMAP XPLOR
 ```
+Thanks to the CHARMM-GUI help team, and specifically Jumin Lee and Nathan Kern for instructions here. (Adding the "XPLOR" keyword suddenly made this work??? Whaaat??? Why are there so many secrets?) 
+
 ## Upload Files to CHARMM-GUI FF Converter
 - Your files should now be readable by the FF Converter. If you get an error saying you're missing a residue, you'll need to upload the relevant topology files that contain info for that residue.
 - You can now run through the steps and generate input files for GROMACS, AMBER, etc. 
