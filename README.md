@@ -20,13 +20,13 @@ Usage Note: Use the "normal" keyword, even if your system > 99,999 atoms. There'
 ``` 
 psfgen
 readmol psf PSF.psf pdb PDB.pdb
-writepsf xplor XPLOR.psf
+writepsf x-plor XPLOR.psf
 ```
 - Add "XPLOR" keyword to the header of the XPLOR.psf:
 ```
 PSF EXT CMAP XPLOR
 ```
-Thanks to the CHARMM-GUI help team, and specifically Jumin Lee and Nathan Kern for instructions here. (Adding the "XPLOR" keyword suddenly made this work??? Whaaat??? Why are there so many secrets?) 
+Thanks to the CHARMM-GUI help team, and specifically Jumin Lee and Nathan Kern for instructions here, and Lorenzo Casalino for finding a typo. (Adding the "XPLOR" keyword suddenly made this work??? Whaaat??? Why are there so many secrets?) 
 
 ## Upload Files to CHARMM-GUI FF Converter
 - Your files should now be readable by the FF Converter. If you get an error saying you're missing a residue, you'll need to upload the relevant topology files that contain info for that residue.
