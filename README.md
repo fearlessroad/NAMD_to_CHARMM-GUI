@@ -27,7 +27,7 @@ writepsf x-plor XPLOR.psf
 PSF EXT CMAP XPLOR
 ```
 Thanks to the CHARMM-GUI help team, and specifically Jumin Lee and Nathan Kern for instructions here, and Lorenzo Casalino for finding a typo. (Adding the "XPLOR" keyword suddenly made this work??? Whaaat??? Why are there so many secrets?) 
-### Note: Until Sept. 29, 2021, 1pm PST, there was a bug in the CHARMM-GUI FF Converter in which it would not accept PSF files with capital letters. We have been informed that this is no longer an issue and you can name the psf file anything you want, e.g., ABBY.psf works. 
+> Note: Until Sept. 29, 2021, 1pm PST, there was a bug in the CHARMM-GUI FF Converter in which it would not accept PSF files with capital letters. We have been informed that this is no longer an issue and you can name the psf file anything you want, e.g., ABBY.psf works. 
 
 ## Upload Files to CHARMM-GUI FF Converter
 - Your files should now be readable by the FF Converter. If you get an error saying you're missing a residue, you'll need to upload the relevant topology files that contain info for that residue.
