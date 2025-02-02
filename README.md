@@ -4,7 +4,7 @@ Tutorial for converting NAMD/VMD-generated psf/pdb files to CHARMM PSF/CRD (cred
 To use the CHARMM-GUI FF Converter (current as of Sept. 29, 2021), you need to input a CHARMM-compatible CRD and PSF. 
 
 ## 1. Convert PSF/PDB to CHARMM CRD 
-  - Use the script from the <a href='https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/write_charmm_crd/'>VMD scripts library</a>, found <a href= 'https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/write_charmm_crd/write_charmm_crd.tcl'>here</a>, written by Mitchell Gleed (mgleed at byu.edu) 2015. (Last accessed Sept 22, 2021)
+  - Use the script from the <a href='https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/write_charmm_crd/'>VMD scripts library</a>, found <a href= 'https://www.ks.uiuc.edu/Research/vmd/script_library/scripts/write_charmm_crd/write_charmm_crd.tcl'>here</a>, written by Mitchell Gleed (mgleed at byu.edu) 2015. (Last accessed Feb 2, 2025)
   - To use with interactive VMD console: 
   ``` 
   vmd -dispdev text
